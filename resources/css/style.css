@@ -1,0 +1,39 @@
+.mobile{
+  display: none;
+}
+
+html{
+  display: flex;
+  flex-direction: column;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  height: 64px;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  padding-left: 24px;
+}
+
+header nav{
+  display: flex;
+  align-items: center;
+}
+
+header nav span{
+  padding-right: 16px;
+}
+
+.left-side img{
+  width: 60%;
+}
+
+.start{
+  display: flex;
+  background-color: grey;
+
+}
